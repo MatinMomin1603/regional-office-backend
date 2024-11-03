@@ -1,0 +1,16 @@
+{
+  "name": "express-docker",
+  "version": "1.0.0",
+  "description": "Creating new project for express app with docker container",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Matin Momin",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
