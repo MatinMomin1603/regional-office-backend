@@ -10,6 +10,6 @@ COPY . .
 
 EXPOSE 3000
 
-ENV NAME express-app
+ENV NAME regional-office-backend-app
 
-CMD ["pm2-runtime", "app.js", "--name", "my-express-app", "-i", "max"]
+CMD ["node", "app.js"]
