@@ -12,4 +12,4 @@ EXPOSE 3000
 
 ENV NAME express-app
 
-CMD ["npm","start"]
+CMD ["pm2-runtime", "app.js", "--name", "my-express-app", "-i", "max"]
